@@ -61,6 +61,7 @@ void day3() {
     int gamma_rate_decimal = std::stoi(gamma_rate_binary, 0, 2);
     int epsilon_rate_decimal = std::stoi(epsilon_rate_binary, 0, 2);
 
+    std::cout << "Part 1:" << '\n';
     std::cout << "The gamma rate is: " << gamma_rate_decimal << '\n';
     std::cout << "The epsilon rate is: " << epsilon_rate_decimal << '\n';
     std::cout << "The power rate is: " << gamma_rate_decimal * epsilon_rate_decimal << '\n';
